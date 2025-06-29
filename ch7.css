@@ -1,0 +1,98 @@
+body {
+    background-color: #F4F5F7;
+    font-family: 'Karla', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+.countinar {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    text-align: start;
+    flex-direction: column;
+    background-color: white;
+    height: 500px;
+    width: 700px;
+    border-radius: 20px 20px 0px 0px;
+    position: relative;
+    top: 50px;
+    left: 500px;
+
+}
+
+.upper {
+    padding: 10px 5px;
+    text-align: left; 
+    margin-left: 40px;
+
+}
+
+.lower {
+    display: flex;
+    margin-top: 60px;
+    height: 100%;
+
+    color: white;
+}
+
+.f1,
+.f2 {
+    flex: 1;
+    padding: 40px;
+    box-sizing: border-box;
+
+}
+
+
+.upper h1 {
+    color: #2AB2AF; 
+    
+}
+
+.upper h2 {
+    color: #b5f06d;
+}
+
+.upper p {
+    color: #9E9AA7;
+}
+
+
+.lower .f1 {
+    background-color: hsl(176, 92%, 35%);
+    border-radius: 0px 0px 0px 20px;
+}
+
+.lower .f2 {
+    background-color: hsl(173, 91%, 44%);
+    color: #e9e9eb;
+    border-radius: 0px 0px 20px 0px;
+}
+
+.lower .f1 strong {
+    font-size: 40px;
+
+}
+
+.lower .f1 span {
+    font-size: 16px;
+    vertical-align: super;
+
+    margin-left: 5px;
+    color: #e0f7f7;
+}
+
+
+.lower .f1 a {
+
+    background-color: #a3e059;
+    padding: 10px 100px;
+    display: inline-block;
+    margin-top: 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+
+}
